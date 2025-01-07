@@ -13,7 +13,7 @@ import {RouterView} from 'vue-router'
     </div>
 
     <div id="contenedor" class="border border-color2 mt-[4rem] md:mt-[12rem]  xl:mt-[17rem] mx-[1rem] md:mx-[2rem] xl:mx-[5rem] w-max-[85rem] rounded-xl bg-color1 absolute z-10 text-white">
-      <RouterView />
+      <RouterView :key="$route.fullPath" />
     </div>
   </div>
   <div class="mt-[53rem] md:mt-[50rem] lg:mt-[55rem]"></div>
