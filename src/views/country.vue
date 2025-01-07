@@ -158,12 +158,12 @@ const getData = async (country) => {
     }
 };
 const viewCountry = (country) => {
-    // router.push({
-    //     to: '/country',
-    //     params: {name:country}
-    // })
+    router.push({
+        name: '/country',
+        params: {name:country}
+    })
 
-    window.location.href=`../World-Ranks/country/${country}`;
+    // window.location.href=`../World-Ranks/country/${country}`;
 }
 onMounted(() => {
     const name = route.params.name;
