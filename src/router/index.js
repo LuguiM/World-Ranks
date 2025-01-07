@@ -6,7 +6,7 @@ const router = createRouter({
     
     routes :[
         {
-            path:'/home',
+            path:'/',
             name: 'Home',
             component: () => import('../views/allCountries.vue')
         },
