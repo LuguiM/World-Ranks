@@ -13,7 +13,8 @@ const router = createRouter({
         {
             path: '/country/:name',
             name: 'country',
-            component: () => import('../views/country.vue')
+            component: () => import('../views/country.vue'),
+            props: true,
         }
     ]
 })
