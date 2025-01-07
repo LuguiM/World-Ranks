@@ -173,7 +173,7 @@ const search = () => {
 }
 
 const viewCountry = (country) => {
-    router.push('country/' + country)
+    router.push('/country/' + country)
 }
 
 watch(statusCheck, searchByStatus, { deep: true });
