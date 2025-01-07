@@ -163,7 +163,7 @@ const viewCountry = (country) => {
     //     params: {name:country}
     // })
 
-    window.location.href=`../country/${country}`;
+    window.location.href=`../World-Ranks/country/${country}`;
 }
 onMounted(() => {
     const name = route.params.name;
