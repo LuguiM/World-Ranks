@@ -1,7 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 const router = createRouter({
-    history: createWebHistory('https://luguim.github.io/World-Ranks/'),
+    // history: createWebHistory('https://luguim.github.io/World-Ranks/'),
+    history: createWebHistory(),
+    
     routes :[
         {
             path:'/',
