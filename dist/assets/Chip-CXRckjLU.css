@@ -1,0 +1,1 @@
+.chipBase{padding:6px 10px;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;user-select:none;transition:background-color .3s}.chip-default{background-color:var(--color2);color:var(--color5)}.chip-text{color:var(--color4)}.chip-outlined{border:1px solid}.chip-active{background-color:var(--color2);color:var(--color4)}
